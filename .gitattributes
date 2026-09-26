@@ -1,0 +1,2 @@
+# .bat 必須保持 Big5 編碼與 CRLF，禁止 git 轉換
+*.bat binary
