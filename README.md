@@ -21,7 +21,7 @@
 | DNS 解析快取 | ✓ | ✓ |
 | Windows Update 下載快取（會暫停 wuauserv／bits／cryptsvc，清完自動開回） | | ✓ |
 | `C:\Windows\Temp`、Prefetch | | ✓ |
-| 系統當機傾印、系統錯誤報告、`C:\Windows` 底下的 `.log` 檔 | | ✓ |
+| 系統當機傾印、系統錯誤報告 | | ✓ |
 | 所有磁碟的資源回收筒（全部使用者） | | ✓ |
 
 ## 注意

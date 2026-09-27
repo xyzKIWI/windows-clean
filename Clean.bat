@@ -65,7 +65,6 @@ echo [*] 正在清理系統錯誤傾印與日誌...
 del /f /s /q "%windir%\Minidump\*.*" >nul 2>&1
 del /f /q "%windir%\Memory.dmp" >nul 2>&1
 del /f /s /q "%ProgramData%\Microsoft\Windows\WER\*.*" >nul 2>&1
-del /f /s /q "%windir%\*.log" >nul 2>&1
 :skip_sys_dumps
 
 :: 4. 清理網路與瀏覽器快取
